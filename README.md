@@ -30,10 +30,10 @@ To run this project, download all files as well as desired test images from the 
 ## Program Overview
 The program consists of a [main file](/MainProgram.mlx), a [dicom image reader](/DICOM_Converter.mlx) function[^2], three hemorrhage detection functions ([edge detection](/EdgeDetectionTest.mlx), [protrusion](/ProtrusionTest.mlx), [thresholding](/ThresholdingTest.mlx)), and a [text file reader](/IDSearch.mlx) function. 
 
-The main file first takes in user input and then processes every image with a .dcm extension in its working directory. The three hemorrhage detection functions takes in the dicom image and returns a positive or negative depending on if it finds a hemorrhage. The text file reader function corroborates the code's prediction with the actual results from the included text file[^3]. The main file then displays the accuracy rate of the program in the form of a percentage as well as a confusion matrix. 
+The main file first takes in user input and then processes every image with a .dcm extension in its working directory. The three hemorrhage detection functions takes in the dicom image and returns a positive or negative depending on if it finds a hemorrhage. The text file reader function corroborates the code's prediction with the actual results from the included [text file](/resultsTable.txt)[^3]. The main file then displays the accuracy rate of the program in the form of a percentage as well as a confusion matrix. 
 
 
 ## Sources
 [^1]: Information taken from [Kaggle competition overview](https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/overview) 
 [^2]: Code taken and modified from an [online source](https://www.mathworks.com/matlabcentral/answers/303156-how-to-convert-dicom-image-to-jpeg-png-with-out-loosing-it-s-metadata#:~:text=It%20is%20not%20possible%20to%20convert%20DICOM%20to,not%20occupy%20more%20than%2064%20Kb%3B%20see%20https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FExif) by Gopichandh Danala
-[^3]: Table taken and filtered from [Kaggle competition dataset](https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data)
+[^3]: Table taken and filtered from stage_2_train.csv in [Kaggle competition data](https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data)
