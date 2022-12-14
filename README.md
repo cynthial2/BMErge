@@ -30,7 +30,7 @@ To run this project, download all files as well as desired test images from the 
 ## Program Overview
 The program consists of a [main file](/MainProgram.mlx), a [dicom image reader](/DICOM_Converter.mlx) function[^2], three hemorrhage detection functions ([edge detection](/EdgeDetectionTest.mlx), [protrusion](/ProtrusionTest.mlx), [thresholding](/ThresholdingTest.mlx)), and a [text file reader](/IDSearch.mlx) function. 
 
-The main file first takes in user input and then processes every image with a .dcm extension in its working directory. The three hemorrhage detection functions takes in the dicom image and returns a positive or negative depending on if it finds a hemorrhage. The most common output from the three tests is then considered the program's prediction. The text file reader function corroborates this prediction with the actual results from the included [text file](/resultsTable.txt)[^3]. The main file then displays the accuracy rate of the program in the form of a percentage as well as a confusion matrix. 
+The main file first takes in user input and then processes every image with a .dcm extension in its working directory. The three hemorrhage detection functions takes in the dicom image and each returns a positive or negative depending on if it finds a hemorrhage. The most common output from the three tests is then considered the program's prediction. The text file reader function corroborates this prediction with the actual results from the included [text file](/resultsTable.txt)[^3]. The main file then displays the accuracy rate of the program in the form of a percentage as well as a confusion matrix. 
 
 
 ## Sources
