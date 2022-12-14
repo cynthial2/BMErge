@@ -24,7 +24,7 @@ This project aims to identify the existence of intracranial hemorrhage from CT s
 
 
 ## Set Up
-To run this project, download all files as well as desired test images from the [data section](https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data) on the Kaggle competition webpage . The dicom images must be obtained from the stage_2_train folder in order for the code to verify its predictions. All files and images must be located in the same directory in order for the program to run properly. Once the code is ready to run, all instructions will be displayed within the code. 
+To run this project, download all files as well as desired test images from the [data section](https://www.kaggle.com/competitions/rsna-intracranial-hemorrhage-detection/data) on the Kaggle competition webpage . The dicom images must be obtained from the stage_2_train folder in order for the code to verify its predictions. The images in the [sample images folder](/sample_images) can be used as demonstration. All files and images must be located in the same directory in order for the program to run properly. Once the code is ready to run, all instructions will be displayed within the code. 
 
 
 ## Program Overview
