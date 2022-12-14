@@ -24,7 +24,7 @@ This project aims to identify the existence of intracranial hemorrhage from CT s
 
 
 ## Set Up
-To run this project, download all files as well as the images in the [sample images folder](/sample_images). All files and images must be located in the same directory in order for the program to run properly (sample images need to be extracted from folder). Once the code is ready to run, all instructions will be displayed within the code. 
+To run this project, download all files as well as the images in the [sample images folder](/sample_images). It is recommended to download all in a zip file. All files and images must be located in the same directory in order for the program to run properly (sample images need to be extracted from folder). Once the code is ready to run, all instructions will be displayed within the code. 
 
 
 ## Program Overview
